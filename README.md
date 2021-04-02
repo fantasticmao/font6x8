@@ -6,22 +6,22 @@ A collection of header files containing a 6x8 bitmap font.
 
 ## Encoding
 
-The character 'A' (0x41 / 65) is encoded as `{0x00, 0x30, 0x2D, 0x0B, 0x2C, 0x30}`.
+The character 'A' (0x41 / 65) is encoded as `{0x00, 0x30, 0x0C, 0x0B, 0x0C, 0x30}`.
 
 ```text
 
        000000
        xxxxxx
-       032023
+       030003
        00DBC0
        ||||||
        vvvvvv
-0  ->  ..xx..
+0  ->  ...x..
 1  ->  ...x..
 2  ->  ..x.x.
 3  ->  ..xxx.
 4  ->  .x...x
-5  ->  .xx.xx
+5  ->  .x...x
 6  ->  ......
 7  ->  ......
 ```
