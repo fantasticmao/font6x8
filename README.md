@@ -9,7 +9,6 @@ A collection of header files containing a 6x8 bitmap font.
 The character 'A' (0x41 / 65) is encoded as `{0x00, 0x30, 0x0C, 0x0B, 0x0C, 0x30}`.
 
 ```text
-
        000000
        xxxxxx
        030003
