@@ -12,7 +12,7 @@ The character 'A' (0x41 / 65) is encoded as `{0x00, 0x30, 0x0C, 0x0B, 0x0C, 0x30
        000000
        xxxxxx
        030003
-       00DBC0
+       00CBC0
        ||||||
        vvvvvv
 0  ->  ...x..
